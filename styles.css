@@ -16,10 +16,11 @@
 #container::before {
     left: -100px;
     top: 50%;
+    transform: translateY(-50%);
 }
 
 #container::after {
     right: -100px;
     top: 50%;
+    transform: translateY(-50%);
 }
-
